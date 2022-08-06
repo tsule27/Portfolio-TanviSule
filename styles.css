@@ -67,3 +67,12 @@ p {
   line-height: 27px;
   padding: 12px 20px;
 }
+.project-images {
+  display: block;
+  background: rgba(5, 5, 5, 0.965);
+  border: 1px solid #fff;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 6px;
+  padding: 10px;
+}
