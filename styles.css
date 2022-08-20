@@ -147,7 +147,32 @@ p {
 .image {
   background: white;
 }
+footer .icons a {
+  margin: 0 20px;
+  color: white;
+  background: var(--branding-color);
+  padding: 10px 15px;
+  border-radius: 50%;
+  font-size: 20px;
+  transition: all 100ms ease-in-out;
+}
 
+footer .email-link {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 50px;
+}
+
+footer .icons a:hover {
+  color: var(--branding-color);
+  background: white;
+}
+
+.portfolio-link {
+  color: #595c63;
+  text-decoration: none;
+}
 @media (max-width: 576px) {
   h1,
   h2,
