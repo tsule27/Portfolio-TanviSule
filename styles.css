@@ -139,7 +139,7 @@ p {
   padding: 10px 10px 80px 10px;
   max-width: 400px;
   max-height: 400px;
-  /*background: rgba(5, 5, 5, 0.965);*/
+  background: rgba(5, 5, 5, 0.965);
 }
 .text {
   background: white;
