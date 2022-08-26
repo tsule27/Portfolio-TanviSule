@@ -136,7 +136,7 @@ p {
   display: block;
   margin: 0 auto;
   border-radius: 20px;
-  padding: 10px 10px 80px 10px;
+  padding: 10px 10px 440px 10px;
   max-width: 400px;
   max-height: 400px;
   background: rgba(5, 5, 5, 0.965);
@@ -148,6 +148,9 @@ p {
 }
 .image {
   background: white;
+}
+
+.heading {
 }
 footer .icons a {
   margin: 0 20px;
@@ -175,6 +178,7 @@ footer .icons a:hover {
   color: #595c63;
   text-decoration: none;
 }
+
 @media (max-width: 576px) {
   h1,
   h2,
