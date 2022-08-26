@@ -55,26 +55,28 @@ p {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
 }
-
+.theme {
+  background: black;
+}
 .hero {
-  background: linear-gradient(
-    102.7deg,
-    rgb(253, 218, 255) 8.2%,
-    rgb(223, 173, 252) 19.6%,
-    rgb(173, 205, 252) 36.8%,
-    rgb(173, 252, 244) 73.2%,
-    rgb(202, 248, 208) 90.9%
-  );
-
+  background-image: url(/images/PXL_20220703_085429724\ copy.jpg);
+  background-color: black;
+  display: block;
+  margin: 0 auto;
+  background-size: cover;
   text-align: center;
-  padding: 80px 20px;
+  padding: 70px 0;
+  max-width: 900px;
+  max-height: 900px;
+  border-radius: 6px;
 }
 .hero-wrapp {
   display: block;
   background: rgba(255, 255, 255, 0.4);
   border: 1px solid #fff;
   background-size: cover;
-  width: 80%;
+  max-width: 750px;
+  max-height: 750px;
   margin: 0 auto;
   border-radius: 6px;
   padding: 80px;
@@ -150,8 +152,6 @@ p {
   background: white;
 }
 
-.heading {
-}
 footer .icons a {
   margin: 0 20px;
   color: white;
