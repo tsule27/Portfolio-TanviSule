@@ -162,10 +162,18 @@ p {
 
 .image {
   display: block;
-  background: rgb(5, 5, 5);
+  text-align: center;
+  border: 2px solid #fff;
+  background-size: cover;
+  margin: 0 auto;
+  border-radius: 6px;
   padding: 10px;
 }
-
+.work-image {
+  background: rgba(5, 5, 5, 0.965);
+  border-radius: 6px;
+  padding: 10px;
+}
 .language-icons img {
   margin: 8px auto;
   max-width: 50px;
@@ -227,6 +235,12 @@ footer .icons a:hover {
   .project-desciption {
     padding: 0;
     text-align: center;
+  }
+  .content h3 {
+    font-size: 15px;
+  }
+  .content-container p {
+    font-size: 12px;
   }
   nav a {
     font-size: 12px;
